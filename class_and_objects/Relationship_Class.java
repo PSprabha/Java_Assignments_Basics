@@ -16,7 +16,7 @@ public class Relationship_Class
 		mfc.setPlayersList(new Player("naveen", "Raider", 9, "Kabaddi"));
 		
 		for(Player p : mfc.getPlayersList())
-				System.out.println(p.getName());
+			System.out.println(p.getName());
 	}
 }
 

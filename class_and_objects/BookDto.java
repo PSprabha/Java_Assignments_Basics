@@ -8,7 +8,7 @@ public class BookDto
     private String isbn;
     private int price;
     private String publishDate;
-    private String category; 	// fictional or non fiction
+    private String category; 	// (fictional or non fiction)
     private int pageCount;
 
     public BookDto()
@@ -60,7 +60,7 @@ public class BookDto
     }
 
     public String getIsbn()
-        {
+    {
         return isbn;
     }
 
